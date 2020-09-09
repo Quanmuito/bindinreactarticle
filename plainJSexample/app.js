@@ -43,5 +43,13 @@ const obj2 = {
 
 obj2.getName(); // print John
 
+/*
+// Implementation of setTimeout function
+function setTimeout(callback, timeout) {
+	//wait for 'timeout' milliseconds
+	callback();
+}
+*/
+
 setTimeout(obj2.getName, 5000);
 setTimeout(obj2.getName.bind(obj2), 5000);
